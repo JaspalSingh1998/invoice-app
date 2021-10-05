@@ -1,7 +1,9 @@
+import "./app.scss";
+
 function App() {
   return (
     <div>
-      <h1>Goldy</h1>
+      <h1 className="title">Goldy</h1>
     </div>
   );
 }
