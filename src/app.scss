@@ -1,3 +1,5 @@
-.title {
-  color: red;
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 5.625rem auto;
+  min-height: 100vh;
 }
