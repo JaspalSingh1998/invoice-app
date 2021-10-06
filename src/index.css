@@ -11,3 +11,6 @@ body {
   min-height: 100vh;
   background-color: #141625;
 }
+ul {
+  list-style: none;
+}

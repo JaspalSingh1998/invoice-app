@@ -5,7 +5,7 @@ import "./Sidebar.styles.scss";
 
 function Sidebar() {
   return (
-    <div class="sidebar-wrapper">
+    <div className="sidebar-wrapper">
       <div className="logo">
         <img src={Logo} alt="App Logo" />
       </div>
