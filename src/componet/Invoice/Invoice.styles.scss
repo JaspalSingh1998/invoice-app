@@ -7,7 +7,7 @@
   .invoice__header {
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 3rem;
     .title {
       font-size: 32px;
       margin-bottom: 8px;
@@ -68,5 +68,81 @@
         align-items: center;
       }
     }
+  }
+  .invoices-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .invoice {
+      color: #fff;
+      background-color: #1e2139;
+      font-size: 12px;
+      padding: 1.5rem 0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      &__id {
+        h3 {
+          span {
+            color: #7e88c3;
+          }
+        }
+      }
+
+      .status-wrapper {
+        display: flex;
+        align-items: center;
+        .status {
+          padding: 0.5rem 1.5rem;
+          border-radius: 5px;
+          margin-right: 1rem;
+          position: relative;
+          width: 100px;
+          p {
+            margin-top: 5px;
+          }
+          p::before {
+            content: "";
+            position: absolute;
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10%;
+          }
+        }
+        .view {
+          height: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.paid {
+  background-color: #203443;
+  color: #33d69f;
+
+  p::before {
+    background-color: #33d69f;
+  }
+}
+.pending {
+  background-color: #352b33;
+  color: #ff7f00;
+
+  p::before {
+    background-color: #ff7f00;
+  }
+}
+.draft {
+  background-color: #21243b;
+  color: #dfe3fa;
+
+  p::before {
+    background-color: #dfe3fa;
   }
 }
