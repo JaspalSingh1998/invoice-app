@@ -126,3 +126,19 @@
   flex-direction: column;
   gap: 2rem;
 }
+.desc {
+  background-color: #252945;
+  padding: 2rem;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.total-wrapper {
+  background-color: black;
+  padding: 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}

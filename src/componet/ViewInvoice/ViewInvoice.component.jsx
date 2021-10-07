@@ -55,6 +55,24 @@ function ViewInvoice() {
             <h2 className="heading">jensenh@mail.com</h2>
           </div>
         </div>
+        <div className="desc">
+          <div className="row">
+            <p className="details">Item Name</p>
+            <p className="details">QTY.</p>
+            <p className="details">Price</p>
+            <p className="details">Total</p>
+          </div>
+          <div className="row">
+            <h4 className="heading">Brand Guidelines </h4>
+            <h4 className="heading">1</h4>
+            <h4 className="heading">£1,800.9 </h4>
+            <h4 className="heading">£1,800.9</h4>
+          </div>
+        </div>
+        <div className="total-wrapper">
+          <p>Amount Due</p>
+          <h2>£1,800.9</h2>
+        </div>
       </div>
     </div>
   );
