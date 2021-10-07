@@ -24,7 +24,7 @@
     justify-content: space-between;
     background: #1f213a;
     border-radius: 8px;
-
+    margin-bottom: 2rem;
     .invoice-status {
       .status__title {
         color: #fff;
@@ -38,6 +38,11 @@
         font-size: 12px;
       }
     }
+  }
+  .invoice-details {
+    padding: 2rem;
+    background: #1f213a;
+    border-radius: 8px;
   }
 }
 .btn {
@@ -82,4 +87,42 @@
   p::before {
     background-color: #dfe3fa;
   }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.invoiceId {
+  h2 {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+.address {
+  font-size: 12px;
+  text-align: right;
+
+  p:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+.heading {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+.details {
+  font-size: 10px;
+  margin-bottom: 0.4rem;
+  color: rgb(223, 227, 250);
+}
+.invoice__date {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
