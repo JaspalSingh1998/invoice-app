@@ -1,0 +1,85 @@
+.wrapper {
+  max-width: 800px;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+  padding: 100px 0;
+
+  .back-wrapper {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    img {
+      width: 10px;
+    }
+    .back-btn {
+      font-weight: bold;
+      color: #fff;
+      margin-left: 0.5rem;
+    }
+  }
+
+  .invoice-options {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background: #1f213a;
+    border-radius: 8px;
+
+    .invoice-status {
+      .status__title {
+        color: #fff;
+        font-size: 12px;
+      }
+      .status_type {
+        display: inline-block;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        margin-left: 1rem;
+        font-size: 12px;
+      }
+    }
+  }
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: rebeccapurple;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+.edit {
+  background-color: #252944;
+}
+.delete {
+  background-color: #ec5556;
+}
+.mpaid {
+  background-color: #7d5df4;
+}
+.paid {
+  background-color: #203443;
+  color: #33d69f;
+
+  p::before {
+    background-color: #33d69f;
+  }
+}
+.pending {
+  background-color: #352b33;
+  color: #ff7f00;
+
+  p::before {
+    background-color: #ff7f00;
+  }
+}
+.draft {
+  background-color: #21243b;
+  color: #dfe3fa;
+
+  p::before {
+    background-color: #dfe3fa;
+  }
+}
